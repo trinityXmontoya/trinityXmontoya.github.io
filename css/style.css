@@ -422,7 +422,7 @@ section.project-item:nth-of-type(even) .project-image-color {
   font-size: 80px;
   color: #675D69; }
 #d3chat .project-image-color {
-  background: #706970;
+  background: #5C5C5C;
   border-color: #1b5b33; }
   #d3chat .project-image-color .project-image {
     /*background-image: url("../images/dontforget-image.png"); }*/
