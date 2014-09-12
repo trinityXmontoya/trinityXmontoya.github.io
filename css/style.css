@@ -7,6 +7,16 @@
 @media (max-width: 1200px) {
   .project-image-color p {
     padding: 0 10% !important; } }
+
+@media (max-width: 533px) {
+  nav ul {
+    padding: 0 !important; }
+  nav ul li {
+    margin: 0 -1% !important; }
+  nav ul li:last-child {
+    padding-right: 7px; }
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -39,7 +49,7 @@ nav {
     nav ul li {
       list-style: none;
       display: inline-block;
-      margin: 0 20px; }
+      margin: 0 2%; }
       nav ul li * {
         display: inline-block;
         margin: 0 8px; }
@@ -405,30 +415,27 @@ section.project-item:nth-of-type(even) .project-image-color {
 #dont-forget-to .project-image-color p {
   top: -54%; }
 
-#d3chat h2 {
-  color: #6A646B; }
-#d3chat a {
-  color: #675D69;
+#sightseer h2 {
+  color: #46BBDB; }
+#sightseer a {
+  color: #d62c3a;
   text-decoration: none;
-  border-bottom: 1px dotted #675D69;
+  border-bottom: 1px dotted #525378;
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
-#d3chat .project-logo {
-  background-image: url("../images/chat-logo.svg");
-  background-size: 100% auto;
+#sightseer .project-logo {
+  background-image: url("../images/sightseer-logo.svg");
+  background-size: auto 100%;
   width: 120px;
-  height: 120px;
-  font-size: 80px;
-  color: #675D69; }
-#d3chat .project-image-color {
-  background: #5C5C5C;
-  border-color: #1b5b33; }
-  #d3chat .project-image-color .project-image {
-    /*background-image: url("../images/dontforget-image.png"); }*/
-    background-color: gray}
-#d3chat .project-image-color p {
-  top: -54%; }
+  height: 120px; }
+#sightseer .project-image-color {
+  background: rgba(105, 209, 238, 0.8);
+  border-color: #1598bd; }
+  #sightseer .project-image-color .project-image {
+    background-image: url("../images/sightseer-image.png"); }
+#sightseer .project-image-color p {
+  top: -55%; }
 
 .project-details {
   padding-top: 68px;
