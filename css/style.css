@@ -8,11 +8,11 @@
   .project-image-color p {
     padding: 0 10% !important; } }
 
-@media (max-width: 533px) {
+@media (max-width: 573px) {
   nav ul {
     padding: 0 !important; }
   nav ul li {
-    margin: 0 -1% !important; }
+    margin: 0 -2% !important; }
   nav ul li:last-child {
     padding-right: 7px; }
 }
