@@ -29,9 +29,9 @@ h1, h2, h3, h4, p {
   font-family: "Lato", sans-serif; }
 
 #container {
-  position: relative;
+  /*position: relative;
   z-index: 5;
-  margin: 0 5%;
+  margin: 0 5%;*/
   text-align: center; }
 
 nav {
@@ -143,14 +143,14 @@ nav {
   font: 100 38px "Lato", sans-serif;
   color: #2b4556; }
 
-section.project-item {
+section.project-item.hackathon-item {
   margin: 15% 0;
   height: 340px;
   -webkit-transform: translateZ(0); }
-  section.project-item:first-of-type {
+  section.project-item.hackathon-item:first-of-type {
     margin: 6% 0 15% 0 !important; }
 
-section.project-item:nth-of-type(even) .project-image-color {
+section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
   float: right !important;
   clear: both;
   -webkit-transform: rotate(-0.5deg);
@@ -158,7 +158,7 @@ section.project-item:nth-of-type(even) .project-image-color {
   -ms-transform: rotate(-0.5deg);
   -o-transform: rotate(-0.5deg);
   transform: rotate(-0.5deg); }
-  section.project-item:nth-of-type(even) .project-image-color:hover {
+  section.project-item.hackathon-item:nth-of-type(even) .project-image-color:hover {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -262,7 +262,7 @@ section.project-item:nth-of-type(even) .project-image-color {
     transition: opacity 200ms; }
 
 #clothography .project-details {
-  padding-top: 48px; }
+  }
 #clothography h2 {
   color: #617c8b;
   margin-top: 0px; }
@@ -293,6 +293,8 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#shoe-in .tags {
+  background-color: #a1d2aa;}
 #shoe-in .project-logo {
   background-image: url("../images/shoein-logo.png");
   background-size: 50px auto;
@@ -318,6 +320,9 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#kitter .tags {
+  background-color: #ce6f56
+}
 #kitter .project-logo {
   background-image: url("../images/kitter-logo.png");
   background-size: 120px auto;
@@ -338,6 +343,8 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#roadtrip .tags {
+  background-color: #f64747; }
 #roadtrip .project-logo {
   background-image: url("../images/roadtrip-logo.png");
   background-size: 100% auto;
@@ -358,6 +365,8 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#the-bone-district .tags {
+  background-color: #525378; }
 #the-bone-district .project-logo {
   background-image: url("../images/bone-logo.png");
   background-size: auto 100%;
@@ -378,6 +387,8 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#pokedex .tags {
+  background-color: #d62c3a }
 #pokedex .project-logo {
   background-image: url("../images/poke-logo.png");
   background-size: auto 100%;
@@ -400,13 +411,17 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#dont-forget-to .tags {
+  background-color: #66a77f;}
 #dont-forget-to .project-logo {
-  background-image: url("../images/dontforget-logo.png");
+  /*background-image: url("../images/dontforget-logo.png");*/
   background-size: 100% auto;
   width: 120px;
   height: 120px;
   font-size: 80px;
-  color: #66a77f; }
+  color: #66a77f;
+  margin-top: 45px;
+  margin-bottom: -45px; }
 #dont-forget-to .project-image-color {
   background: #86dba6;
   border-color: #1b5b33; }
@@ -414,6 +429,35 @@ section.project-item:nth-of-type(even) .project-image-color {
     background-image: url("../images/dontforget-image.png"); }
 #dont-forget-to .project-image-color p {
   top: -54%; }
+
+
+#d3chat h2 {
+  color: #878787; }
+#d3chat a {
+  color: #bdc3c7;
+  text-decoration: none;
+  border-bottom: 1px dotted #bdc3c7;
+  margin-top: 8px;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px; }
+#d3chat .tags {
+  background-color: #bdc3c7;}
+#d3chat .project-logo {
+  background-image: url("../images/chat-logo.svg");
+  background-size: 100% auto;
+  width: 116px;
+  height: 126px;
+  font-size: 80px;
+  color: #66a77f; }
+#d3chat .project-image-color {
+  background: #86dba6;
+  border-color: #1b5b33; }
+  #d3chat .project-image-color .project-image {
+    background-image: url("../images/chat-image.png"); }
+#d3chat .project-image-color p {
+  top: -54%; }
+
+
 
 #sightseer h2 {
   color: #46BBDB; }
@@ -424,6 +468,8 @@ section.project-item:nth-of-type(even) .project-image-color {
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
+#sightseer .tags {
+  background-color: #d62c3a; }
 #sightseer .project-logo {
   background-image: url("../images/sightseer-logo.svg");
   background-size: auto 100%;
@@ -437,17 +483,17 @@ section.project-item:nth-of-type(even) .project-image-color {
 #sightseer .project-image-color p {
   top: -55%; }
 
-.project-details {
+.hackathon-item .project-details {
   padding-top: 68px;
   width: 35%;
   display: inline-block;
   vertical-align: top; }
-  .project-details ul {
+   .project-details ul {
     margin: 10px auto;
     text-align: center;
     padding: 0;
     max-width: 220px; }
-    .project-details ul li {
+     .project-details ul li {
       cursor: default;
       list-style: none;
       display: inline-block;
@@ -486,8 +532,20 @@ section.project-item:nth-of-type(even) .project-image-color {
   display: inline-block;
   margin: 16px 0 0 0; }
 
-.project-details a {
+.hackathon-item .project-details a {
   display: inline-block; }
 
-.project-details p {
+.hackathon-item .project-details p {
   display: inline-block; }
+
+
+
+/*FIRST PROJECT DIV*/
+.main-item .project-details {
+  padding: 30px; }
+  .main-item .project-details p {
+    font-size:13px;
+    padding: 8px;
+    width: 65%;
+    margin: 0 auto; }
+
