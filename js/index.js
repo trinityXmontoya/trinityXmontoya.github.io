@@ -1,12 +1,12 @@
 $(document).ready( function(){
   console.log("Loaded!")
-  displayDiv();
+  // displayDiv();
   // $('#nav').scrollspy({
   //               min: 721,
   //               max: $('#container').offset().top + $('#container').outerHeight(),
   //               onEnter: function(element, position) {
   //                   $("#nav").addClass('sticky');
-          
+
   //               },
   //               onLeave: function(element, position) {
   //                   $("#nav").removeClass('sticky');
@@ -14,7 +14,7 @@ $(document).ready( function(){
   //           });
 //-340 + ($(this).height()/2) + 'px';
  function sizeProductSections(){
-    $('.project-details').each(function(){
+    $('.hackathon-item .project-details').each(function(){
    var n = Math.abs(340/2 - ($(this).height()/2))+ 'px';
     console.log(n)
     $(this).css({
@@ -22,14 +22,14 @@ $(document).ready( function(){
     });
     console.log('sizeProductSections')
 });
-  $('.project-desc').each(function(){
+  $('.hackathon-item .project-desc').each(function(){
     $(this).css({
       'top':  340/2 - ($(this).height()/2) + 'px'
     });
   });
   }
 
-  $('.project-desc').hover(function(e){
+  $('.hackathon-item .project-desc').hover(function(e){
     $(this).siblings('.project-image').addClass('project-image-hover');
     e.stopPropagation();
   }, function(){
@@ -46,11 +46,11 @@ $(document).ready( function(){
    sizeProductSections();
 });
 
-function displayDiv(){
-  $(".main-display-header").on('click', function(){
-    var divToDisplay = '"#'+ $(this).data('id') + '"';
-    $(divToDisplay).toggleClass('displayed')
-  });
-}
+// function displayDiv(){
+//   $(".main-display-header").on('click', function(){
+//     var divToDisplay = '"#'+ $(this).data('id') + '"';
+//     $(divToDisplay).toggleClass('displayed')
+//   });
+// }
 
 

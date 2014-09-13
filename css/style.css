@@ -144,21 +144,26 @@ nav {
   color: #2b4556; }
 
 section.project-item.hackathon-item {
-  margin: 15% 0;
-  height: 340px;
+  margin: 9% 0;
+  padding: 0 30px;
   -webkit-transform: translateZ(0); }
-  section.project-item.hackathon-item:first-of-type {
-    margin: 6% 0 15% 0 !important; }
+/*  section.project-item.hackathon-item:first-of-type {
+    margin: 6% 0 15% 0 !important; }*/
 
-section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
-  float: right !important;
-  clear: both;
+section.project-item.hackathon-item:nth-of-type(odd) .project-image-color {
+  float: left;
+  /*clear: both;*/
   -webkit-transform: rotate(-0.5deg);
   -moz-transform: rotate(-0.5deg);
   -ms-transform: rotate(-0.5deg);
   -o-transform: rotate(-0.5deg);
   transform: rotate(-0.5deg); }
-  section.project-item.hackathon-item:nth-of-type(even) .project-image-color:hover {
+section.project-item.hackathon-item:nth-of-type(odd) .project-details {
+  float: right;
+  clear: both;
+}
+
+  section.project-item.hackathon-item:nth-of-type(odd) .project-image-color:hover {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
@@ -208,11 +213,12 @@ section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
   transition: opacity 400ms; }
 
 .project-image-color {
-  width: 47%;
+  /*width: 47%;*/
   border: 1px solid;
   height: 340px;
   background-size: cover;
   display: inline-block;
+  margin-left: 8%;
   -webkit-transform: rotate(0.5deg);
   -moz-transform: rotate(0.5deg);
   -ms-transform: rotate(0.5deg);
@@ -225,7 +231,8 @@ section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
   -moz-transition: transform 200ms;
   -ms-transition: transform 200ms;
   -o-transition: transform 200ms;
-  transition: transform 200ms; }
+  transition: transform 200ms;
+  overflow: hidden; }
   .project-image-color:hover {
     cursor: pointer;
     -webkit-transform: rotate(0deg);
@@ -237,7 +244,8 @@ section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
     -moz-transition: transform 400ms;
     -ms-transition: transform 400ms;
     -o-transition: transform 400ms;
-    transition: transform 400ms; }
+    transition: transform 400ms;
+    overflow: hidden; }
     .project-image-color:hover p {
       opacity: 0;
       -webkit-transition: opacity 400ms;
@@ -485,7 +493,7 @@ section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
 
 .hackathon-item .project-details {
   padding-top: 68px;
-  width: 35%;
+  width: 41%;
   display: inline-block;
   vertical-align: top; }
    .project-details ul {
@@ -548,4 +556,28 @@ section.project-item.hackathon-item:nth-of-type(even) .project-image-color {
     padding: 8px;
     width: 65%;
     margin: 0 auto; }
+
+
+@media (max-width: 780px){
+  .project-image {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 767px){
+  .project-image-color.col-1-2 {
+    float: none !important;
+  }
+  .project-details {
+    float: none !important;
+  }
+}
+
+@media (max-width: 580px){
+  .project-image-color.col-1-2 {
+    width: 100%;
+  }
+
+
+}
 

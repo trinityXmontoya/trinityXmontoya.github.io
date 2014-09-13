@@ -13,6 +13,7 @@
   <title>Le Website</title>
 </head>
 <body>
+  <!-- NAVBAR -->
   <nav id="nav">
     <ul>
       <li>
@@ -31,6 +32,8 @@
       </li>
     </ul>
   </nav>
+
+  <!-- MASTHEAD -->
   <div id="masthead">
     <div class="masthead-inner">
       <div id="profile-photo"></div>
@@ -44,212 +47,216 @@
         <br>
         Now a full-stack web developer, for hire ;)
       </p>
-    </div><!-- end masthead-inner -->
-  </div><!-- end masthead -->
+    </div>
+  </div>
 
+  <!-- CONTAINER -->
   <div id="container" class="grid">
+    <!-- TOP PROJECTS -->
     <div id="project-wrapper" class="first-group-projects">
       <h1>Projects</h1>
 
+      <!-- PROJECT ROW 1 -->
+      <div class="col-1-1">
 
-    <div class="col-1-1">
-      <!-- KITTR -->
-      <div class="project-item main-item col-1-2" id="kitter">
-        <div class="project-details">
-          <div class="project-logo"></div>
-          <h2>Kitter</h2>
-          <br>
-          <a href="http://www.kitter.cat" target="_blank">www.kitter.cat</a>
-            <p>
-            Twitter, for cats. My first RoR project, built from scratch with my own hashtag and username filtering methods!
-            </p>
-          <ul>
-            <li class="tags">Ruby on Rails</li>
-            <li class="tags">Embedly</li>
-            <li class="tags">PSQL</li>
-            <li class="tags">Bootstrap</li>
-            <li class="tags">Custom passwordless-login</li>
-          </ul>
-        </div>
-      </div><!-- end kitter -->
-
-      <!-- CLOTHOGRAPHY -->
-      <div class="project-item main-item col-1-2" id="clothography">
-        <div class="project-details">
-          <div class="project-logo"></div>
-          <h2>Clothography</h2>
-          <br>
-          <a href="http://clothography.herokuapp.com" target="_blank">clothography.herokuapp.com</a>
-          <p>The frictionless marketplace for second-hand clothing. Featuring passwordless-login and bitcoin acceptance, will be launching in ~2 months.</p>
-          <ul>
-            <li class="tags">Ruby on Rails</li>
-            <li class="tags">PSQL</li>
-            <li class="tags">AWS S3</li>
-            <li class="tags">Custom passwordless-login</li>
-            <li class="tags">Paperclip</li>
-            <li class="tags">Omniauth</li>
-            <li class="tags">Stripe</li>
-            <li class="tags">Acts-as-taggable-on</li>
-            <li class="tags">Foundation</li>
-          </ul>
-        </div>
-      </div><!-- end clothography -->
-    </div>
-
-    <div class="col-1-1">
-      <!-- THE BONE DISTRICT -->
-      <div class="project-item main-item col-1-2" id="the-bone-district">
-        <div class="project-details">
-          <div class="project-logo"></div>
-          <h2>The Bone District</h2>
-          <br>
-          <a href="http://www.thebonedistrict.com" target="_blank">www.thebonedistrict.com</a>
-          <p>My first website! I learned to code and decided to start a small clothing line. Designed the clothes and site.</p>
-          <ul>
-            <li class="tags">HTML</li>
-            <li class="tags">CSS</li>
-            <li class="tags">E-Commerce</li>
-            <li class="tags">Business</li>
-          </ul>
-        </div>
-      </div><!-- end thebonedistrict -->
-
-      <!-- POKDEX -->
-      <div class="project-item main-item col-1-2" id="pokedex">
-        <div class="project-details">
-        <div class="project-logo"></div>
-          <h2>CSS Pokedex</h2>
-          <br>
-          <a href="http://trinityxmontoya.github.io/pokedex" target="_blank">trinityxmontoya.github.io/pokedex</a>
-          <p><span class="underline">Pure</span> CSS Pokedex, to help you catch 'em all</p>
-          <ul>
-            <li class="tags">Sinatra</li>
-            <li class="tags">PSQL</li>
-          </ul>
-        </div>
-       </div><!-- end pokedex -->
-    </div>
-
-    <div class="col-1-1">
-      <!-- DONT FORGET TO -->
-      <div class="project-item main-item col-1-2" id="dont-forget-to">
-        <div class="project-details">
-          <div class="project-logo">
-            <i class="fa fa-ellipsis-h"></i>
-          </div>
-          <h2>Don't Forget To</h2>
-          <br>
-          <a href="http://dontforgetto.herokuapp.com" target="_blank">DontForgetTo.herokuapp.com</a>
-          <p>Simple to-do list app, with integrated word-icon substitution</p>
-          <ul>
-            <li class="tags">Backbone.js</li>
-            <li class="tags">Sinatra</li>
-            <li class="tags">MongoDB</li>
-            <li class="tags">HAML</li>
-          </ul>
-        </div>
-       </div><!-- end dontforgetto -->
-
-       <!-- d3Chat -->
-      <div class="project-item main-item col-1-2" id="d3chat">
-        <div class="project-details">
-          <div class="project-logo"></div>
-          <h2>Disappearing Chat</h2>
-          <br>
-          <a href="https://github.com/trinityXmontoya/nodechat
-  ">Work in progress, link to repo</a>
-          <p>Private chats that disappear after 24 hours, with a D3 generated background tracking the conversation's flow</p>
-          <ul>
-            <li class="tags">Redis</li>
-            <li class="tags">Node</li>
-            <li class="tags">Express</li>
-            <li class="tags">Socket.io</li>
-            <li class="tags">D3</li>
-            <li class="tags">Jade</li>
-          </ul>
-        </div>
-      </div><!-- end d3chat -->
-    </div>
-
-    </div><!-- end project-wrapper.first-group-projects -->
-  </div><!-- end container.grid -->
-
-      <div id="project-wrapper" class="col-1-1">
-        <h1>Hackathons</h1>
-
-        <!-- SightSeer -->
-        <section class="project-item hackathon-item" id="sightseer">
-          <div class="project-image-color">
-            <div class="project-image"></div>
-            <p class="project-desc">Developed for a Mashable & Intel Hackathon. User enters location and time limit and is guided blindly to an interesting destination nearby</p>
-          </div>
+        <!-- KITTER -->
+        <div class="project-item main-item col-1-2" id="kitter">
           <div class="project-details">
             <div class="project-logo"></div>
-            <h2>SightSeer</h2>
+            <h2>Kitter</h2>
             <br>
-            <a href="http://sightseer.io
-" target="_blank">sightseer.io</a>
+            <a href="http://www.kitter.cat" target="_blank">www.kitter.cat</a>
+              <p>
+              Twitter, for cats. My first RoR project, built from scratch with my own hashtag and username filtering methods!
+              </p>
             <ul>
-              <li class="tags">Ruby on Rails API</li>
-              <li class="tags">Angular.js</li>
-              <li class="tags">Angular-Google-Maps</li>
-              <li class="tags">Foursquare API</li>
-              <li class="tags">Geocoder</li>
+              <li class="tags">Ruby on Rails</li>
+              <li class="tags">Embedly</li>
               <li class="tags">PSQL</li>
-              <li class="tags">Custom auth with Bcrypt</li>
+              <li class="tags">Bootstrap</li>
+              <li class="tags">Custom passwordless-login</li>
             </ul>
           </div>
-        </section>
+        </div><!-- end kitter -->
 
-        <!-- ROADTRIP -->
-        <section class="project-item hackathon-item" id="roadtrip">
-          <div class="project-image-color">
-            <div class="project-image" style="background-image:url('images/road-bg2.png')"></div>
-            <p class="project-desc">Roadtrip-simulator utilizing Google Maps Street View to give kids immersive education tours</p>
-          </div>
+        <!-- CLOTHOGRAPHY -->
+        <div class="project-item main-item col-1-2" id="clothography">
           <div class="project-details">
             <div class="project-logo"></div>
-            <h2>RoadTrip</h2>
+            <h2>Clothography</h2>
             <br>
-            <a href="http://www.hyperlapse.herokuapp.com" target="_blank">Link coming soon!</a>
+            <a href="http://clothography.herokuapp.com" target="_blank">clothography.herokuapp.com</a>
+            <p>The frictionless marketplace for second-hand clothing. Featuring passwordless-login and bitcoin acceptance, will be launching in ~2 months.</p>
+            <ul>
+              <li class="tags">Ruby on Rails</li>
+              <li class="tags">PSQL</li>
+              <li class="tags">AWS S3</li>
+              <li class="tags">Custom passwordless-login</li>
+              <li class="tags">Paperclip</li>
+              <li class="tags">Omniauth</li>
+              <li class="tags">Stripe</li>
+              <li class="tags">Acts-as-taggable-on</li>
+              <li class="tags">Foundation</li>
+            </ul>
+          </div>
+        </div><!-- end clothography -->
+      </div><!-- end project row 1 -->
+
+      <!-- PROJECT ROW 2 -->
+      <div class="col-1-1">
+        <!-- THE BONE DISTRICT -->
+        <div class="project-item main-item col-1-2" id="the-bone-district">
+          <div class="project-details">
+            <div class="project-logo"></div>
+            <h2>The Bone District</h2>
+            <br>
+            <a href="http://www.thebonedistrict.com" target="_blank">www.thebonedistrict.com</a>
+            <p>My first website! I learned to code and decided to start a small clothing line. Designed the clothes and site.</p>
+            <ul>
+              <li class="tags">HTML</li>
+              <li class="tags">CSS</li>
+              <li class="tags">E-Commerce</li>
+              <li class="tags">Business</li>
+            </ul>
+          </div>
+        </div><!-- end thebonedistrict -->
+
+        <!-- POKDEX -->
+        <div class="project-item main-item col-1-2" id="pokedex">
+          <div class="project-details">
+          <div class="project-logo"></div>
+            <h2>CSS Pokedex</h2>
+            <br>
+            <a href="http://trinityxmontoya.github.io/pokedex" target="_blank">trinityxmontoya.github.io/pokedex</a>
+            <p><span class="underline">Pure</span> CSS Pokedex, to help you catch 'em all</p>
             <ul>
               <li class="tags">Sinatra</li>
-              <li class="tags">MongoDB</li>
-              <li class="tags">Angular</li>
-              <li class="tags">Hyperlapse.js</li>
-              <li class="tags awards">
-                <a href="https://twitter.com/gagrads/status/491287199124422656"><i class="fa fa-trophy"></i><h4>Best Overall - LearnLaunch Hackathon</h4></a>
-              </li>
+              <li class="tags">PSQL</li>
             </ul>
           </div>
-        </section>
+         </div><!-- end pokedex -->
+      </div><!-- end project row 2 -->
 
-        <!-- Shoe-in -->
-        <section class="project-item hackathon-item" id="shoe-in">
-          <div class="project-image-color">
-            <div class="project-image" ></div>
-            <p class="project-desc">Tinder-like shoe app that coordinates with your current outfit using a custom-built color-matching algorithm</p>
-          </div>
+      <!-- PROJECT ROW 3 -->
+      <div class="col-1-1">
+        <!-- DONT FORGET TO -->
+        <div class="project-item main-item col-1-2" id="dont-forget-to">
           <div class="project-details">
-            <div class="project-logo" style="background-image:url('images/shoein-logo.png');"></div>
-            <h2>Shoe-in</h2>
+            <div class="project-logo">
+              <i class="fa fa-ellipsis-h"></i>
+            </div>
+            <h2>Don't Forget To</h2>
             <br>
-            <a href="http://shoe-in.herokuapp.com" target="_blank">shoe-in.herokuapp.com</a>
+            <a href="http://dontforgetto.herokuapp.com" target="_blank">DontForgetTo.herokuapp.com</a>
+            <p>Simple to-do list app, with integrated word-icon substitution</p>
             <ul>
-              <li class="tags">Angular</li>
-              <li class="tags">Express</li>
-              <li class="tags">Node</li>
-              <li class="tags">ColorThief.js</li>
-              <li class="tags">Gestures.js</li>
-              <li class="tags awards">
-               <a href="http://fashionretailapp.challengepost.com/?ref_content=fashionretailapp.challengepost.com&ref_feature=challenge&ref_medium=discover"><i class="fa fa-trophy"></i><h4>Best Overall- HH Brown Shoe Hackathon</h4></a>
-              </li>
+              <li class="tags">Backbone.js</li>
+              <li class="tags">Sinatra</li>
+              <li class="tags">MongoDB</li>
+              <li class="tags">HAML</li>
             </ul>
           </div>
-        </section>
-      </div>
+         </div><!-- end dontforgetto -->
+
+         <!-- d3Chat -->
+        <div class="project-item main-item col-1-2" id="d3chat">
+          <div class="project-details">
+            <div class="project-logo"></div>
+            <h2>Disappearing Chat</h2>
+            <br>
+            <a href="https://github.com/trinityXmontoya/nodechat
+    ">Work in progress, link to repo</a>
+            <p>Private chats that disappear after 24 hours, with a D3 generated background tracking the conversation's flow</p>
+            <ul>
+              <li class="tags">Redis</li>
+              <li class="tags">Node</li>
+              <li class="tags">Express</li>
+              <li class="tags">Socket.io</li>
+              <li class="tags">D3</li>
+              <li class="tags">Jade</li>
+            </ul>
+          </div>
+        </div><!-- end d3chat -->
+      </div><!-- end project row 3 -->
     </div>
 
+    <!-- HACKATHON PROJECTS -->
+    <div id="project-wrapper">
+      <h1>Hackathons</h1>
+
+      <!-- SightSeer -->
+      <section class="project-item hackathon-item col-1-1" id="sightseer">
+        <div class="project-details col-1-2">
+          <div class="project-logo"></div>
+          <h2>SightSeer</h2>
+          <br>
+          <a href="http://sightseer.io
+" target="_blank">sightseer.io</a>
+          <ul>
+            <li class="tags">Ruby on Rails API</li>
+            <li class="tags">Angular.js</li>
+            <li class="tags">Angular-Google-Maps</li>
+            <li class="tags">Foursquare API</li>
+            <li class="tags">Geocoder</li>
+            <li class="tags">PSQL</li>
+            <li class="tags">Custom auth with Bcrypt</li>
+          </ul>
+        </div>
+        <div class="project-image-color col-1-2">
+          <div class="project-image"></div>
+          <p class="project-desc">Developed for a Mashable & Intel Hackathon. User enters location and time limit and is guided blindly to an interesting destination nearby</p>
+        </div>
+      </section>
+
+      <!-- ROADTRIP -->
+      <section class="project-item hackathon-item col-1-1" id="roadtrip">
+        <div class="project-details col-1-2">
+          <div class="project-logo"></div>
+          <h2>RoadTrip</h2>
+          <br>
+          <a href="http://www.hyperlapse.herokuapp.com" target="_blank">Link coming soon!</a>
+          <ul>
+            <li class="tags">Sinatra</li>
+            <li class="tags">MongoDB</li>
+            <li class="tags">Angular</li>
+            <li class="tags">Hyperlapse.js</li>
+            <li class="tags awards">
+              <a href="https://twitter.com/gagrads/status/491287199124422656"><i class="fa fa-trophy"></i><h4>Best Overall - LearnLaunch Hackathon</h4></a>
+            </li>
+          </ul>
+        </div>
+        <div class="project-image-color col-1-2">
+          <div class="project-image" style="background-image:url('images/road-bg2.png')"></div>
+          <p class="project-desc">Roadtrip-simulator utilizing Google Maps Street View to give kids immersive education tours</p>
+        </div>
+      </section>
+
+      <!-- Shoe-in -->
+      <section class="project-item hackathon-item col-1-1" id="shoe-in">
+        <div class="project-details col-1-2">
+          <div class="project-logo" style="background-image:url('images/shoein-logo.png');"></div>
+          <h2>Shoe-in</h2>
+          <br>
+          <a href="http://shoe-in.herokuapp.com" target="_blank">shoe-in.herokuapp.com</a>
+          <ul>
+            <li class="tags">Angular</li>
+            <li class="tags">Express</li>
+            <li class="tags">Node</li>
+            <li class="tags">ColorThief.js</li>
+            <li class="tags">Gestures.js</li>
+            <li class="tags awards">
+             <a href="http://fashionretailapp.challengepost.com/?ref_content=fashionretailapp.challengepost.com&ref_feature=challenge&ref_medium=discover"><i class="fa fa-trophy"></i><h4>Best Overall- HH Brown Shoe Hackathon</h4></a>
+            </li>
+          </ul>
+        </div>
+        <div class="project-image-color col-1-2">
+          <div class="project-image" ></div>
+          <p class="project-desc">Tinder-like shoe app that coordinates with your current outfit using a custom-built color-matching algorithm</p>
+        </div>
+      </section>
+    </div>
+    </div>
+  </div>
 
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
