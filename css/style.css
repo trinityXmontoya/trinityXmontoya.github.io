@@ -466,18 +466,17 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
   top: -54%; }
 
 
-
 #sightseer h2 {
-  color: #46BBDB; }
+  color: #349BB6; }
 #sightseer a {
-  color: #d62c3a;
+  color: #68CFED;
   text-decoration: none;
-  border-bottom: 1px dotted #525378;
+  border-bottom: 1px dotted #68CFED;
   margin-top: 8px;
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
 #sightseer .tags {
-  background-color: #d62c3a; }
+  background-color: #349BB6; }
 #sightseer .project-logo {
   background-image: url("../images/sightseer-logo.svg");
   background-size: auto 100%;
@@ -546,7 +545,11 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
 .hackathon-item .project-details p {
   display: inline-block; }
 
-
+.project-image-color .project-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /*FIRST PROJECT DIV*/
 .main-item .project-details {
@@ -577,7 +580,5 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
   .project-image-color.col-1-2 {
     width: 100%;
   }
-
-
 }
 
