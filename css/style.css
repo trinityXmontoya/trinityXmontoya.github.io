@@ -292,6 +292,34 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
   #clothography .project-image-color .project-image {
     background-image: url("../images/cloth-image.png"); }
 
+#catering .project-details {
+  }
+#catering h2 {
+  color: #DEB73B;
+  margin-top: 0px; }
+#catering a {
+  color: #EFD06E;
+  text-decoration: none;
+  border-bottom: 1px dotted #EFD06E;
+  margin-top: 8px;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px; }
+#catering .tags {
+  background-color: #EFD06E
+}
+#catering .project-logo {
+  background-image: url("../images/catering_logo.svg");
+  background-size: 140px auto;
+  width: 140px;
+  height: 140px; }
+#catering .project-image-color {
+  background: rgba(97, 124, 139, 0.8);
+  border-color: #2a363d; }
+  #catering .project-image-color .project-image {
+    /*background-image: url("../images/cloth-image.png");*/ }
+
+
+
 #shoe-in h2 {
   color: #346e3e; }
 #shoe-in a {
