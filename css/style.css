@@ -466,6 +466,32 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
 #dont-forget-to .project-image-color p {
   top: -54%; }
 
+#busfinder .project-details {
+  }
+#busfinder h2 {
+  color: #0060B2;
+  margin-top: 0px; }
+#busfinder a {
+  color: #0060B2;
+  text-decoration: none;
+  border-bottom: 1px dotted #0060B2;
+  margin-top: 8px;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px; }
+#busfinder .tags {
+  background-color: #F39C12
+}
+#busfinder .project-logo {
+  background-image: url("../images/busfinder-logo.svg");
+  background-size: 140px auto;
+  width: 140px;
+  height: 140px; }
+#busfinder .project-image-color {
+  background: rgba(97, 124, 139, 0.8);
+  border-color: #2a363d; }
+  #busfinder .project-image-color .project-image {
+    background-image: url("../images/cloth-image.png"); }
+
 
 #d3chat h2 {
   color: #878787; }
