@@ -8,7 +8,7 @@
   .project-image-color p {
     padding: 0 10% !important; } }
 
-@media (max-width: 573px) {
+@media (max-width: 600px) {
   nav ul {
     padding: 0 !important; }
   nav ul li {
@@ -16,6 +16,16 @@
   nav ul li:last-child {
     padding-right: 7px; }
 }
+
+@media (max-width: 420px) {
+/*  nav ul {
+    padding: 0 !important; }
+  nav ul li {
+    margin: 0 -2% !important; }*/
+  nav ul li:last-child a#hireme{
+    padding: 2px 2px; }
+}
+
 
 * {
   -webkit-box-sizing: border-box;
