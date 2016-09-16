@@ -302,6 +302,30 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
   #clothography .project-image-color .project-image {
     background-image: url("../images/cloth-image.png"); }
 
+  #tndrfndr .project-details ul li.tags {
+    background-color: #5ccccc;
+  }
+  #tndrfndr h2 {
+    color: #5ccccc;
+    margin-top: 0px; }
+  #tndrfndr a {
+    color: #8db5cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #8db5cc;
+    margin-top: 8px;
+    font-family: 'Droid Serif', serif;
+    font-size: 14px; }
+  #tndrfndr .project-logo {
+    background-image: url("../images/tndrfndr-logo.svg");
+    background-size: 140px auto;
+    width: 140px;
+    height: 140px; }
+  #tndrfndr .project-image-color {
+    background: rgba(97, 124, 139, 0.8);
+    border-color: #2a363d; }
+    #clothography .project-image-color .project-image {
+      background-image: url("../images/cloth-image.png"); }
+
 #catering .project-details {
   }
 #catering h2 {
@@ -448,6 +472,31 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
 #pokedex .project-image-color p {
   top: -55%; }
 
+  #taxi-time-machine h2 {
+    color: #372577; }
+  #taxi-time-machine a {
+    color: #513c9e;
+    text-decoration: none;
+    border-bottom: 1px dotted #5d44b7;
+    margin-top: 8px;
+    font-family: 'Droid Serif', serif;
+    font-size: 14px; }
+  #taxi-time-machine .tags {
+    background-color: #513c9e }
+  #taxi-time-machine .project-logo {
+    background-image: url("../images/taxi-time-machine-logo.png");
+    background-size: 100%;
+        background-position: center bottom;
+    width: 120px;
+    height: 120px; }
+  #taxi-time-machine .project-image-color {
+    background: rgba(189, 39, 52, 0.8);
+    border-color: #4f1016; }
+    #taxi-time-machine .project-image-color .project-image {
+      background-image: url("../images/taxi-time-machine-image.png"); }
+  #taxi-time-machine .project-image-color p {
+    top: -55%; }
+
 #dont-forget-to h2 {
   color: #4f8162; }
 #dont-forget-to a {
@@ -479,8 +528,7 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
 #busfinder .project-details {
   }
 #busfinder h2 {
-  color: #0060B2;
-  margin-top: 0px; }
+  color: #024782; }
 #busfinder a {
   color: #0060B2;
   text-decoration: none;
@@ -489,13 +537,12 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
   font-family: 'Droid Serif', serif;
   font-size: 14px; }
 #busfinder .tags {
-  background-color: #F39C12
+  background-color: #f3a221
 }
 #busfinder .project-logo {
   background-image: url("../images/busfinder-logo.svg");
-  background-size: 120px auto;
-  width: 140px;
-  height: 140px; }
+  width: 120px;
+  height: 120px; }
 #busfinder .project-image-color {
   background: rgba(97, 124, 139, 0.8);
   border-color: #2a363d; }

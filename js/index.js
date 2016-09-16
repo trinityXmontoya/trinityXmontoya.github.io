@@ -16,11 +16,9 @@ $(document).ready( function(){
  function sizeProductSections(){
     $('.hackathon-item .project-details').each(function(){
    var n = Math.abs(340/2 - ($(this).height()/2))+ 'px';
-    console.log(n)
     $(this).css({
       'padding-top':   n
     });
-    console.log('sizeProductSections')
 });
   $('.hackathon-item .project-desc').each(function(){
     $(this).css({
@@ -52,5 +50,3 @@ $(document).ready( function(){
 //     $(divToDisplay).toggleClass('displayed')
 //   });
 // }
-
-
