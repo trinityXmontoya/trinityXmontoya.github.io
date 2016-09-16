@@ -1,624 +1,628 @@
 <!doctype html>
 <html>
   <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-
-  <title>Trinity Montoya</title>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
-  <style type="text/css">
-  @import url(
-  http://fonts.googleapis.com/css?family=Lato:400,700
-);
-body {
-  background: #fff;
-  font-family: Lato, sans-serif;
-  margin: 0 0 80px;
-}
-a {
-  color: #81c0e9;
-}
-a:focus,
-a:hover {
-  color: #f1c40f;
-  text-decoration: none;
-}
-p {
-  line-height: 1.5;
-  margin: 0;
-}
-p + p {
-  margin-top: 10px;
-}
-h1,
-h2,
-h3,
-h4 {
-  margin-top: 0
-}
-section {
-  margin-top: 30px;
-}
-li {
-  line-height: 1.8;
-  list-style: none;
-}
-li:before {
-  content: "\f052";
-  float: left;
-  font: 13px Octicons;
-  margin-top: 6px;
-  margin-left: -20px;
-  opacity: .1;
-  position: absolute;
-}
-blockquote {
-  border-left: 5px solid #e7e9ec;
-  font-size: 14px;
-}
-em {
-  color: #95a5a6;
-  font-weight: normal;
-  font-style: normal;
-}
-h4 span:first-child {
-  color: #000;
-  font-weight: bold;
-}
-.container {
-  max-width: 750px;
-  padding: 0 30px;
-}
-.col-sm-6 {
-  margin-bottom: 10px;
-}
-.col-sm-12 h4 {
-  margin-top: 12px;
-}
-.col-sm-12 + .col-sm-12 {
-  margin-top: 30px;
-}
-#header {
-  background: #f4f6f6;
-  padding: 50px 0;
-  margin-bottom: 30px;
-}
-#header h2 {
-  color: #95a5a6;
-  font-size: 24px;
-}
-#content h3 {
-  color: #f1c40f;
-  font-size: 26px;
-  margin-top: -4px;
-}
-#content aside {
-  text-align: right;
-  padding-right: 30px;
-}
-#profiles .network {
-  text-transform: capitalize;
-}
-#work .position,
-#volunteer .position {
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-#education .area {
-  font-weight: bold;
-}
-#education .area:before {
-  content: "\f0d7";
-  font: 16px Octicons;
-  margin-right: 6px;
-}
-#education .studyType {
-  margin-left: 25px;
-}
-#awards .summary,
-#publications .summary {
-  margin-top: 8px;
-}
-#publications .website a:before {
-  content: attr(href);
-}
-
-@media (min-width: 480px) {
-  .strike-through {
-    border-top: 1px solid #f4f6f6;
-    height: 20px;
-    margin-top: 12px;
-    margin-bottom: -2px;
-    position: relative;
-  }
-  .strike-through span,
-  .strike-through a {
-    background: #fff;
-    position: absolute;
-  }
-  .strike-through span:first-child {
-    padding-right: 20px;
-    margin-top: -12px;
-  }
-  .strike-through span + span {
-    font-size: 14px;
-    margin-top: -10px;
-    padding-left: 20px;
-    right: 0;
-  }
-}
-@media (max-width: 768px) {
-  .col-sm-6:last-child {
-    margin-bottom: 0px;
-  }
-  #content aside {
-    margin-bottom: 20px;
-    padding-right: 0;
-    text-align: left;
-  }
-  #publications .website a:before {
-    content: "View publication";
-  }
-}
-@media (max-width: 480px) {
-  h1 {
-    font-size: 26px;
-  }
-  .date {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  .strike-through span:first-child {
-    margin-bottom: 7px;
-  }
-  .strike-through span {
-    display: block;
-  }
-  #header {
-    margin-bottom: 10px;
-    padding: 40px 0;
-  }
-  #actions {
-    display: none;
-  }
-}
-
-  </style>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+    <title>Trinity Montoya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+    <style type="text/css">
+      @import url(
+      http://fonts.googleapis.com/css?family=Lato:400,700
+      );
+      body {
+      background: #fff;
+      font-family: Lato, sans-serif;
+      margin: 0 0 80px;
+      }
+      a {
+      color: #81c0e9;
+      }
+      a:focus,
+      a:hover {
+      color: #f1c40f;
+      text-decoration: none;
+      }
+      p {
+      line-height: 1.5;
+      margin: 0;
+      }
+      p + p {
+      margin-top: 10px;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+      margin-top: 0
+      }
+      section {
+      margin-top: 30px;
+      }
+      li {
+      line-height: 1.8;
+      list-style: none;
+      }
+      li:before {
+      content: "\f052";
+      float: left;
+      font: 13px Octicons;
+      margin-top: 6px;
+      margin-left: -20px;
+      opacity: .1;
+      position: absolute;
+      }
+      blockquote {
+      border-left: 5px solid #e7e9ec;
+      font-size: 14px;
+      }
+      em {
+      color: #95a5a6;
+      font-weight: normal;
+      font-style: normal;
+      }
+      h4 span:first-child {
+      color: #000;
+      font-weight: bold;
+      }
+      .container {
+      max-width: 750px;
+      padding: 0 30px;
+      }
+      .col-sm-6 {
+      margin-bottom: 10px;
+      }
+      .col-sm-12 h4 {
+      margin-top: 12px;
+      }
+      .col-sm-12 + .col-sm-12 {
+      margin-top: 30px;
+      }
+      #header {
+      background: #f4f6f6;
+      padding: 50px 0;
+      margin-bottom: 30px;
+      }
+      #header h2 {
+      color: #95a5a6;
+      font-size: 24px;
+      }
+      #content h3 {
+      color: #f1c40f;
+      font-size: 26px;
+      margin-top: -4px;
+      }
+      #content aside {
+      text-align: right;
+      padding-right: 30px;
+      }
+      #profiles .network {
+      text-transform: capitalize;
+      }
+      #work .position,
+      #volunteer .position {
+      font-weight: bold;
+      margin-bottom: 8px;
+      }
+      #education .area {
+      font-weight: bold;
+      }
+      #education .area:before {
+      content: "\f0d7";
+      font: 16px Octicons;
+      margin-right: 6px;
+      }
+      #education .studyType {
+      margin-left: 25px;
+      }
+      #awards .summary,
+      #publications .summary {
+      margin-top: 8px;
+      }
+      #publications .website a:before {
+      content: attr(href);
+      }
+      @media (min-width: 480px) {
+      .strike-through {
+      border-top: 1px solid #f4f6f6;
+      height: 20px;
+      margin-top: 12px;
+      margin-bottom: -2px;
+      position: relative;
+      }
+      .strike-through span,
+      .strike-through a {
+      background: #fff;
+      position: absolute;
+      }
+      .strike-through span:first-child {
+      padding-right: 20px;
+      margin-top: -12px;
+      }
+      .strike-through span + span {
+      font-size: 14px;
+      margin-top: -10px;
+      padding-left: 20px;
+      right: 0;
+      }
+      }
+      @media (max-width: 768px) {
+      .col-sm-6:last-child {
+      margin-bottom: 0px;
+      }
+      #content aside {
+      margin-bottom: 20px;
+      padding-right: 0;
+      text-align: left;
+      }
+      #publications .website a:before {
+      content: "View publication";
+      }
+      }
+      @media (max-width: 480px) {
+      h1 {
+      font-size: 26px;
+      }
+      .date {
+      font-size: 14px;
+      margin-bottom: 5px;
+      }
+      .strike-through span:first-child {
+      margin-bottom: 7px;
+      }
+      .strike-through span {
+      display: block;
+      }
+      #header {
+      margin-bottom: 10px;
+      padding: 40px 0;
+      }
+      #actions {
+      display: none;
+      }
+      }
+    </style>
   </head>
   <body id="top" >
-  <header id="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-9 col-sm-push-3">
-          <h1>
-            Trinity Montoya
-          </h1>
-          <h2>
-            Software Engineer
-          </h2>
-        </div>
-      </div>
-    </div>
-    <a href="/" style="font-size:3rem;position:absolute;padding-left:10px">
-        <i class="fa fa-arrow-circle-o-left"></i>
-    </a>
-  </header>
-  <div id="content" class="container">
-
-  <section id="contact" class="row">
-    <aside class="col-sm-3">
-      <h3>Contact</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-        <div class="col-sm-6">
-          <strong>Email</strong>
-          <div class="email">
-            <a href="mailto:trinityXmontoya@gmail.com">
-              trinityXmontoya@gmail.com
-            </a>
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-sm-push-3">
+            <h1>
+              Trinity Montoya
+            </h1>
+            <h2>
+              Software Engineer
+            </h2>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="about" class="row">
-    <aside class="col-sm-3">
-      <h3>About</h3>
-    </aside>
-    <div class="col-sm-9">
-      <p>A native New Yorker, I dropped out of college, raised 10k on Upstart, and used it to go to programming bootcamp. Was hired back by that same bootcamp to teach new students full-stack development. Now working at a global shipping logistics startup on the software team collaborating daily with data scientists, designers, and product!</p>
-    </div>
-  </section>
-  <section id="profiles" class="row">
-    <aside class="col-sm-3">
-      <h3>Profiles</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-        <div class="col-sm-6" style="width:11%">
-          <strong class="network">
-
-            <a href="https://github.com/trinityXmontoya">
+      <a href="/" style="font-size:3rem;position:absolute;padding-left:10px">
+      <i class="fa fa-arrow-circle-o-left"></i>
+      </a>
+    </header>
+    <div id="content" class="container">
+      <section id="contact" class="row">
+        <aside class="col-sm-3">
+          <h3>Contact</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <strong>Email</strong>
+              <div class="email">
+                <a href="mailto:trinityXmontoya@gmail.com">
+                trinityXmontoya@gmail.com
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="row">
+        <aside class="col-sm-3">
+          <h3>About</h3>
+        </aside>
+        <div class="col-sm-9">
+          <p>A native New Yorker, I dropped out of college, raised 10k on Upstart, and used it to go to programming bootcamp. Was hired back by that same bootcamp to teach new students full-stack development. Now working at a global shipping logistics startup on the software team collaborating daily with data scientists, designers, and product!</p>
+        </div>
+      </section>
+      <section id="profiles" class="row">
+        <aside class="col-sm-3">
+          <h3>Profiles</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6" style="width:11%">
+              <strong class="network">
+              <a href="https://github.com/trinityXmontoya">
               <i class="fa fa-github" style="font-size:37px;color:black;"></i>
-            </a>
-          </strong>
-        </div>
-        <div class="col-sm-6" style="width:11%">
-          <strong class="network">
-            <a href="https://twitter.com/maybetrinity">
+              </a>
+              </strong>
+            </div>
+            <div class="col-sm-6" style="width:11%">
+              <strong class="network">
+              <a href="https://twitter.com/maybetrinity">
               <i class="fa fa-twitter" style="font-size:37px;color:black;"></i>
-            </a>
-          </strong>
-        </div>
-        <div class="col-sm-6" style="width:11%">
-          <strong class="network">
-            <a href="http://www.linkedin.com/in/trinitymontoya/">
+              </a>
+              </strong>
+            </div>
+            <div class="col-sm-6" style="width:11%">
+              <strong class="network">
+              <a href="http://www.linkedin.com/in/trinitymontoya/">
               <i class="fa fa-linkedin" style="font-size:37px;color:black;"></i>
-            </a>
-          </strong>
-        </div>
-        <div class="col-sm-6" style="width:11%">
-          <strong class="network">
-            <a href="https://medium.com/@trinity">
+              </a>
+              </strong>
+            </div>
+            <div class="col-sm-6" style="width:11%">
+              <strong class="network">
+              <a href="https://medium.com/@trinity">
               <i class="fa fa-medium" style="font-size:37px;color:black;"></i>
-            </a>
-          </strong>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="skills" class="row">
-    <aside class="col-sm-3">
-      <h3>Skills</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="name">
-            <h4>Back-end Development</h4>
-          </div>
-          <ul class="keywords">
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>Clojure</li>
-            <li>Sinatra</li>
-            <li>Meteor</li>
-            <li>Amazon S3</li>
-            <li>Amazon Mechanical Turk</li>
-            <li>REST</li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <div class="name">
-            <h4>Front-end Development</h4>
-          </div>
-          <ul class="keywords">
-            <li>AngularJS</li>
-            <li>Leaflet</li>
-            <li>D3.js</li>
-            <li>Javascript / jQuery</li>
-            <li>Coffeescript / HAML</li>
-            <li>HTML 5 / CSS3</li>
-            <li>Foundation / Bootstrap</li>
-          </ul>
-        </div>
-        <div class="col-sm-6" style="float:none;">
-          <div class="name">
-            <h4>Databases</h4>
-          </div>
-          <ul class="keywords">
-            <li>Postgres (+ PostGIS)</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <div class="name">
-            <h4>Development Tools</h4>
-          </div>
-          <ul class="keywords">
-            <li>Git</li>
-            <li>Github</li>
-            <li>Heroku</li>
-            <li>Codeship (CI)</li>
-          </ul>
-        </div>
-        <div class="col-sm-6">
-          <div class="name">
-            <h4>Learning</h4>
-          </div>
-          <ul class="keywords">
-            <li>Redis</li>
-            <li>ClojureScript</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="work" class="row">
-    <aside class="col-sm-3">
-      <h3>Work</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>Weft</span>
-            <span class="date">
-              Apr 2016 - Now
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a href="http://www.weft.io/">http://www.weft.io/</a>
-          </div>
-          <div class="position">
-            Data Engineer
-          </div>
-          <!-- <div class="summary">
-            <p>Founded and Managed an online retail clothing and sales company.</p>
-          </div>
-          <h4>Highlights</h4>
-          <ul class="highlights">
-            <li class="bullet"> Hand-designed and produced the website and clothes.</li>
-          </ul> -->
-        </div>
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>Weft</span>
-            <span class="date">
-              Oct 2014 — Apr 2016
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a href="http://www.weft.io/">http://www.weft.io/</a>
-          </div>
-          <div class="position">
-            Full Stack Engineer
-          </div>
-          <div class="summary">
-            <p>Built full-stack solutions for core web platform + data processing microservices for DS team</p>
-          </div>
-          <h4>Highlights</h4>
-          <ul class="highlights">
-            <li class="bullet">Main contributor to Rails REST API</li>
-            <li class="bullet">Overhauled ^API to Clojure (after learning language on-the-job)</li>
-            <li class="bullet">Specced + built intelligent map-rendering system, API support for mobile app, + multi-tiered processing pipeline including Kafka and IOT binary message parsing</li>
-            <li class="bullet">Collaborated with Data Science team to produce D3 visualizations</li>
-            <li class="bullet">Worked directly with designer to implement complete front-end systems (architecture + UI)</li>
-            <li class="bullet">On team of 2 building ClojureScript + ReactJS SPA</li>
-          </ul>
-        </div>
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>General Assembly</span>
-            <span class="date">
-              Jun 2014 — Aug 2014
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a href="https://generalassemb.ly/">https://generalassemb.ly/</a>
-          </div>
-          <div class="position">
-            Developer-in-Residence
-          </div>
-          <div class="summary">
-            <p>Provided assignment and project support for students participating in the 12-week Web Development Immersive program.</p>
-          </div>
-          <h4>Highlights</h4>
-          <ul class="highlights">
-            <li class="bullet"> Led lessons on Heroku, Regexes, and NoSQL databases.</li>
-            <li class="bullet">Graded project repos based on code quality and industry standards</li>
-          </ul>
-        </div>
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>The Bone District</span>
-            <span class="date">
-              Sep 2013 — Dec 2013
-            </span>
-          </h4>
-          <div class="website pull-right">
-            <a href="http://www.thebonedistrict.com/">http://www.thebonedistrict.com/</a>
-          </div>
-          <div class="position">
-            Founder
-          </div>
-          <div class="summary">
-            <p>Founded and Managed an online retail clothing and sales company.</p>
-          </div>
-          <h4>Highlights</h4>
-          <ul class="highlights">
-            <li class="bullet"> Hand-designed and produced the website and clothes.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="education" class="row">
-    <aside class="col-sm-3">
-      <h3>Education</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>General Assembly</span>
-            <span class="date">
-              Upcoming May 2016 - Aug 2016
-            </span>
-          </h4>
-          <div class="area">
-            Boston, MA
-          </div>
-          <div class="studyType">
-            <a href="https://generalassemb.ly/education/data-science">
-              Data Science
-            </a>
-          </div>
-          <ul class="courses">
-            <li>11-week part-time course to gain experience with data science tools & thought processes with the goal
-              of improving my programming ken!</li>
-          </ul>
-        </div>
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>General Assembly</span>
-            <span class="date">
-              Feb 2014 — May 2014
-            </span>
-          </h4>
-          <div class="area">
-            New York, NY
-          </div>
-          <div class="studyType">
-            <a href="https://generalassemb.ly/education/web-development-immersive">
-              Web Development Immersive
-            </a>
-          </div>
-          <ul class="courses">
-            <li>Spent ~70hrs/week focusing on full stack Rails apps and other complementary stack-tools.</li>
-            <li>Developed and deployed three full-stack web applications using a RESTful architecture and an Agile Development process.</li>
-          </ul>
-        </div>
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>Northeastern University</span>
-            <span class="date">
-              Sep 2012 — Apr 2013
-            </span>
-          </h4>
-          <div class="area">
-            Boston, MA
-          </div>
-          <div class="studyType">
-            International Affairs &amp; Human Services
+              </a>
+              </strong>
+            </div>
           </div>
         </div>
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>Hampshire College</span>
-            <span class="date">
-              Sep 2011 — Apr 2012
-            </span>
-          </h4>
-          <div class="area">
-            Amherst, MA
-          </div>
-          <div class="studyType">
-            International Affairs
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="awards" class="row">
-    <aside class="col-sm-3">
-      <h3>Awards</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-      <div class="col-sm-12">
-        <h4 class="strike-through">
-          <span>Travel and education hackathon</span>
-        </h4>
-        <div class="date pull-right">
-          <em>Awarded</em>
-          Jul 2014
-        </div>
-        <div class="awarder">
-          <em>by</em>
-          <strong>Pearson&#x27;s Group</strong>
-        </div>
-        <div class="summary">
-          <i class="fa fa-trophy"></i> 1st Place - Best Overall
-        </div>
-      </div>
-      <div class="col-sm-12">
-        <h4 class="strike-through">
-          <span>HH Brown Hackathon</span>
-        </h4>
-        <div class="date pull-right">
-          <em>Awarded</em>
-          Aug 2014
-        </div>
-        <div class="awarder">
-          <em>by</em>
-          <strong>HH Brown</strong>
-        </div>
-        <div class="summary">
-          <i class="fa fa-trophy"></i> 1st place - Best Overall
-        </div>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="interests" class="row">
-    <aside class="col-sm-3">
-      <h3>Interests</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-      <div class="col-sm-6">
-        <div class="name">
-          <h4></h4>
-        </div>
-        <ul class="keywords">
-          <li>Books // Science Fiction</li>
-          <li>Comic Books // Graphic Novels</li>
-          <li>Arduinos (Newbie)</li>
-          <li><img src="http://i.giphy.com/6hbRKWsfqvbkQ.gif" alt="" /></li>
-        </ul>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="press" class="row">
-    <aside class="col-sm-3">
-      <h3>Press</h3>
-    </aside>
-    <div class="col-sm-9">
-      <div class="row">
-        <div class="col-sm-12">
-          <h4 class="strike-through">
-            <span>CNBC Squawk Alley Interview</span>
-          </h4>
-          <div class="summary">
-            <i class="fa fa-video-camera"></i> CNBC Squawk Alley interview about time in General Assembly's WDI course
-            <iframe width="560" height="315" src="//www.youtube.com/embed/0Nfjqfj3Rnw?start=58" frameborder="0" allowfullscreen></iframe>
+      </section>
+      <section id="skills" class="row">
+        <aside class="col-sm-3">
+          <h3>Skills</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Back-end Development</h4>
+              </div>
+              <ul class="keywords">
+                <li>Clojure</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
+                <li>Meteor</li>
+                <li>Amazon S3</li>
+                <li>Amazon Mechanical Turk</li>
+                <li>REST</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Front-end Development</h4>
+              </div>
+              <ul class="keywords">
+                <li>AngularJS</li>
+                <li>Leaflet</li>
+                <li>D3.js</li>
+                <li>Javascript / jQuery</li>
+                <li>Coffeescript / HAML</li>
+                <li>HTML 5 / CSS3</li>
+                <li>Foundation / Bootstrap</li>
+              </ul>
+            </div>
+            <div class="col-sm-6" style="float:none;">
+              <div class="name">
+                <h4>Databases</h4>
+              </div>
+              <ul class="keywords">
+                <li>Postgres (+ PostGIS)</li>
+                <li>MongoDB</li>
+                <li>Redis</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Development Tools</h4>
+              </div>
+              <ul class="keywords">
+                <li>Git</li>
+                <li>Github</li>
+                <li>Heroku</li>
+                <li>Codeship (CI)</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="name">
+                <h4>Learning</h4>
+              </div>
+              <ul class="keywords">
+                <li>Kafka</li>
+                <li>Cassandra</li>
+                <li>ClojureScript</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
+      </section>
+      <section id="work" class="row">
+        <aside class="col-sm-3">
+          <h3>Work</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Genscape</span>
+                <span class="date">
+                Jun 2016 - Aug 2016
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.genscape.com/">http://www.genscape.com/</a>
+              </div>
+              <div class="position">
+                Data Engineer
+              </div>
+              <!-- <div class="summary">
+                <p>Founded and Managed an online retail clothing and sales company.</p>
+                </div>
+                <h4>Highlights</h4>
+                <ul class="highlights">
+                <li class="bullet"> Hand-designed and produced the website and clothes.</li>
+                </ul> -->
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Weft</span>
+                <span class="date">
+                Apr 2016 - Jun 2016
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.weft.io/">http://www.weft.io/</a>
+              </div>
+              <div class="position">
+                Data Engineer
+              </div>
+              <!-- <div class="summary">
+                <p>Founded and Managed an online retail clothing and sales company.</p>
+                </div>
+                <h4>Highlights</h4>
+                <ul class="highlights">
+                <li class="bullet"> Hand-designed and produced the website and clothes.</li>
+                </ul> -->
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Weft</span>
+                <span class="date">
+                Oct 2014 — Apr 2016
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.weft.io/">http://www.weft.io/</a>
+              </div>
+              <div class="position">
+                Full Stack Engineer
+              </div>
+              <div class="summary">
+                <p>Built full-stack solutions for core web platform + data processing microservices for DS team</p>
+              </div>
+              <h4>Highlights</h4>
+              <ul class="highlights">
+                <li class="bullet">Main contributor to Rails REST API</li>
+                <li class="bullet">Overhauled ^API to Clojure (after learning language on-the-job)</li>
+                <li class="bullet">Specced + built intelligent map-rendering system, API support for mobile app, + multi-tiered processing pipeline including Kafka and IOT binary message parsing</li>
+                <li class="bullet">Collaborated with Data Science team to produce D3 visualizations</li>
+                <li class="bullet">Worked directly with designer to implement complete front-end systems (architecture + UI)</li>
+                <li class="bullet">On team of 2 building ClojureScript + ReactJS SPA</li>
+              </ul>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>General Assembly</span>
+                <span class="date">
+                Jun 2014 — Aug 2014
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="https://generalassemb.ly/">https://generalassemb.ly/</a>
+              </div>
+              <div class="position">
+                Developer-in-Residence
+              </div>
+              <div class="summary">
+                <p>Provided assignment and project support for students participating in the 12-week Web Development Immersive program.</p>
+              </div>
+              <h4>Highlights</h4>
+              <ul class="highlights">
+                <li class="bullet"> Led lessons on Heroku, Regexes, and NoSQL databases.</li>
+                <li class="bullet">Graded project repos based on code quality and industry standards</li>
+              </ul>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>The Bone District</span>
+                <span class="date">
+                Sep 2013 — Dec 2013
+                </span>
+              </h4>
+              <div class="website pull-right">
+                <a href="http://www.thebonedistrict.com/">http://www.thebonedistrict.com/</a>
+              </div>
+              <div class="position">
+                Founder
+              </div>
+              <div class="summary">
+                <p>Founded and Managed an online retail clothing and sales company.</p>
+              </div>
+              <h4>Highlights</h4>
+              <ul class="highlights">
+                <li class="bullet"> Hand-designed and produced the website and clothes.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="row">
+        <aside class="col-sm-3">
+          <h3>Education</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <!-- <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>General Assembly</span>
+                <span class="date">
+                  Upcoming May 2016 - Aug 2016
+                </span>
+              </h4>
+              <div class="area">
+                Boston, MA
+              </div>
+              <div class="studyType">
+                <a href="https://generalassemb.ly/education/data-science">
+                  Data Science
+                </a>
+              </div>
+              <ul class="courses">
+                <li>11-week part-time course to gain experience with data science tools & thought processes with the goal
+                  of improving my programming ken!</li>
+              </ul>
+              </div> -->
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>General Assembly</span>
+                <span class="date">
+                Feb 2014 — May 2014
+                </span>
+              </h4>
+              <div class="area">
+                New York, NY
+              </div>
+              <div class="studyType">
+                <a href="https://generalassemb.ly/education/web-development-immersive">
+                Web Development Immersive
+                </a>
+              </div>
+              <ul class="courses">
+                <li>Spent ~70hrs/week focusing on full stack Rails apps and other complementary stack-tools.</li>
+                <li>Developed and deployed three full-stack web applications using a RESTful architecture and an Agile Development process.</li>
+              </ul>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Northeastern University</span>
+                <span class="date">
+                Sep 2012 — Apr 2013
+                </span>
+              </h4>
+              <div class="area">
+                Boston, MA
+              </div>
+              <div class="studyType">
+                International Affairs &amp; Human Services
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Hampshire College</span>
+                <span class="date">
+                Sep 2011 — Apr 2012
+                </span>
+              </h4>
+              <div class="area">
+                Amherst, MA
+              </div>
+              <div class="studyType">
+                International Affairs
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="awards" class="row">
+        <aside class="col-sm-3">
+          <h3>Awards</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>Travel and education hackathon</span>
+              </h4>
+              <div class="date pull-right">
+                <em>Awarded</em>
+                Jul 2014
+              </div>
+              <div class="awarder">
+                <em>by</em>
+                <strong>Pearson&#x27;s Group</strong>
+              </div>
+              <div class="summary">
+                <i class="fa fa-trophy"></i> 1st Place - Best Overall
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>HH Brown Hackathon</span>
+              </h4>
+              <div class="date pull-right">
+                <em>Awarded</em>
+                Aug 2014
+              </div>
+              <div class="awarder">
+                <em>by</em>
+                <strong>HH Brown</strong>
+              </div>
+              <div class="summary">
+                <i class="fa fa-trophy"></i> 1st place - Best Overall
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="interests" class="row">
+        <aside class="col-sm-3">
+          <h3>Interests</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="name">
+                <h4></h4>
+              </div>
+              <ul class="keywords">
+                <li>Books // Science Fiction</li>
+                <li>Comic Books // Graphic Novels</li>
+                <li>Arduinos (Newbie)</li>
+                <li><img src="http://i.giphy.com/6hbRKWsfqvbkQ.gif" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="press" class="row">
+        <aside class="col-sm-3">
+          <h3>Press</h3>
+        </aside>
+        <div class="col-sm-9">
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="strike-through">
+                <span>CNBC Squawk Alley Interview</span>
+              </h4>
+              <div class="summary">
+                <i class="fa fa-video-camera"></i> CNBC Squawk Alley interview about time in General Assembly's WDI course
+                <iframe width="560" height="315" src="//www.youtube.com/embed/0Nfjqfj3Rnw?start=58" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- <div class="row">
-    <div class="col-sm-12">
-      <h4 class="strike-through">
-        <span>Hackathon Tweets</span>
-      </h4>
-      <div class="summary">
-        <li>https://twitter.com/gagrads/status/491287199124422656</li>
-        <li></li>
+        <div class="col-sm-12">
+          <h4 class="strike-through">
+            <span>Hackathon Tweets</span>
+          </h4>
+          <div class="summary">
+            <li>https://twitter.com/gagrads/status/491287199124422656</li>
+            <li></li>
+          </div>
+        </div>
+        </div> -->
+      <div style="text-align: center; padding-top: 20px;">
+        <a href="#top">Back to Top</a>
       </div>
     </div>
-    </div> -->
-
-  <div style="text-align: center; padding-top: 20px;">
-    <a href="#top">Back to Top</a>
-  </div>
-  </div>
   </body>
 </html>
