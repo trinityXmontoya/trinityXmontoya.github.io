@@ -493,7 +493,7 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
 }
 #busfinder .project-logo {
   background-image: url("../images/busfinder-logo.svg");
-  background-size: 140px auto;
+  background-size: 120px auto;
   width: 140px;
   height: 140px; }
 #busfinder .project-image-color {
@@ -529,6 +529,60 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
 #d3chat .project-image-color p {
   top: -54%; }
 
+  #compass-rose h2 {
+    color: #da61b8; }
+  #compass-rose a {
+    color: #e88fcf;
+    text-decoration: none;
+    border-bottom: 1px dotted #e88fcf;
+    margin-top: 8px;
+    font-family: 'Droid Serif', serif;
+    font-size: 14px; }
+  #compass-rose .tags {
+    background-color: #e88fcf;}
+  #compass-rose .project-logo {
+    background-image: url("../images/compass-rose-logo.png");
+    background-size: contain;
+    background-position: center;
+    width: 110px;
+    height: 110px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+  #compass-rose .project-image-color {
+    background: rgba(185, 135, 170, 0.8);
+    border-color: #b767c5; }
+    #compass-rose .project-image-color .project-image {
+      background-image: url("../images/compassrosemockup.png"); }
+
+  #ride-supply h2 {
+    color: #68488a; }
+  #ride-supply a {
+    color: #9c79c1;
+    text-decoration: none;
+    border-bottom: 1px dotted #9c79c1;
+    margin-top: 8px;
+    font-family: 'Droid Serif', serif;
+    font-size: 14px; }
+  #ride-supply .tags {
+    background-color: #9c79c1;}
+  #ride-supply .project-logo {
+    background-image: url("../images/ride-supply-logo.svg");
+    background-size: cover;
+    background-position: inherit;
+    width: 110px;
+    height: 110px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+  #ride-supply .project-image-color {
+    background: rgba(159, 135, 185, 0.8);
+    border-color: #9467c5; }
+    #ride-supply .project-image-color .project-image {
+      background-image: url("../images/ridesupplymock.jpeg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: inherit; }
 
 #sightseer h2 {
   color: #349BB6; }
@@ -645,4 +699,3 @@ section.project-item.hackathon-item:nth-of-type(odd) .project-details {
     width: 100%;
   }
 }
-
