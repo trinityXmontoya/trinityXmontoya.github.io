@@ -65,7 +65,9 @@ nav {
         margin: 0 8px; }
       nav ul li a {
         color: rgba(255, 255, 255, 0.75);
-        font-size: 13px; }
+        font-size: 13px;
+        text-decoration: none;
+       }
         nav ul li a h3 {
           font-weight: 300; }
 
